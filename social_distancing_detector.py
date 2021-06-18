@@ -24,13 +24,13 @@ weightsPath = os.path.sep.join([config.MODEL_PATH, "yolov3.weights"])
 configPath = os.path.sep.join([config.MODEL_PATH, "yolov3.cfg"])
 
 
-print("Loading YOLO from disk...")
+print("Loading .")
 net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 
 
 if config.USE_GPU:
     
-    print("Setting preferable backend and target to CUDA...")
+    print("Setting preferable .")
     net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
     net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 
