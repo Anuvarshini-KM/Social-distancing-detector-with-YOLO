@@ -13,4 +13,8 @@ python social_distancing_detector.py --input pedestrians.mp4 --output output.avi
 
 Use display 1 to get the output
 
+SAMPLE OUTPUT:
+![IM](https://user-images.githubusercontent.com/67510175/122526312-c6adf500-d037-11eb-99ae-e50fc263ddb6.JPG)
+
+
 
